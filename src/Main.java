@@ -67,6 +67,13 @@ public class Main {
          */
             Set<Integer> Set1 = new TreeSet<>();
 
+            /* Po co pan tyle razy tworzy klasę Scanner? mozna raz zadeklarować i wiele razy używać:
+             Scanner scan0 = new Scanner(System.in)
+              int liczba0 = scan0.nextInt();
+              int liczba1 = scan0.nextInt();
+              int liczb2 = scan0.nextInt();
+              ...
+            */
             Scanner scan0 = new Scanner(System.in);
             System.out.println("Podaj  liczbe: ");
             int liczba0 = scan0.nextInt();
